@@ -1,0 +1,13 @@
+prefix=E:/Python1.0/venv/Library
+exec_prefix=E:/Python1.0/venv/Library
+libdir=E:/Python1.0/venv/Library/lib
+sharedlibdir=E:/Python1.0/venv/Library/lib
+includedir=E:/Python1.0/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
